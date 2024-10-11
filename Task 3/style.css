@@ -1,14 +1,12 @@
 /* General */
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     background-color: #FCF8ED;
 }
 body{
-    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Syne', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -287,7 +285,7 @@ section{
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 5rem;
     justify-content: space-around;
 }
 article{
@@ -298,4 +296,74 @@ article{
 }
 article .icon{
     cursor: default;
+}
+/* PROJECTS SECTION */
+#project{
+    position: relative;
+}
+.color-container{
+    border-color: rgb(163, 163, 163);
+    /* background: rgb(250, 250, 250); */
+}
+.project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+    transition: 0.3s;
+}
+.project-img:hover{
+    transform: scale(1.1);
+}
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+.project-btn{
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+/* CONTACT SECTION */
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    /* background: rgb(250, 250, 250); */
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.contact-info-container p{
+    font-size: larger;
+}
+.contact-icon{
+    cursor: default;
+}
+.email-icon{
+    height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+footer p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
