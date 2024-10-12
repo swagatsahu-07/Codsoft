@@ -123,6 +123,10 @@ a:hover{
 .hamburger-icon span:first-child{
     transform: none;
 }
+#name{
+    color: rgb(182, 48, 48);
+    font-size: 50px;
+}
 
 /* Sections */
 
@@ -346,6 +350,7 @@ article .icon{
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    padding: 2px;
 }
 .contact-info-container p{
     font-size: larger;
